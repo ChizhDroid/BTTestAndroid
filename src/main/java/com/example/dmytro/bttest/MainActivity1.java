@@ -50,7 +50,7 @@ public class MainActivity1 extends AppCompatActivity {
             }catch(Exception e){}
         }
     }
-//
+///
     private BluetoothSocket socket;
     private OutputStreamWriter os;
     private InputStream is;
