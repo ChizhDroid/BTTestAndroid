@@ -55,7 +55,6 @@ public class MainActivity1 extends AppCompatActivity {
             }catch(Exception e){}
         }
     }
-///
 
 
     private BroadcastReceiver discoveryResult = new BroadcastReceiver() {
