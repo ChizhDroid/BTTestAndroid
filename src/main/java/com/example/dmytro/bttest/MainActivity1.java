@@ -20,6 +20,11 @@ public class MainActivity1 extends AppCompatActivity {
 
     private boolean CONTINUE_READ_WRITE = true;
 
+    private BluetoothSocket socket;
+    private OutputStreamWriter os;
+    private InputStream is;
+    private BluetoothDevice remoteDevice;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,10 +56,7 @@ public class MainActivity1 extends AppCompatActivity {
         }
     }
 ///
-    private BluetoothSocket socket;
-    private OutputStreamWriter os;
-    private InputStream is;
-    private BluetoothDevice remoteDevice;
+
 
     private BroadcastReceiver discoveryResult = new BroadcastReceiver() {
 
